@@ -38,7 +38,13 @@ In order to create your JSockets client, you need to follow these steps:
 
 ## Javadoc
 
+If you need any help with the library methods you can use the javadoc documentation (it's include in the project)
+
 ## Support && contact
+
+### Email
+
+You can contact me using my email: ricardo.casanova@outlook.com
 
 ### Twitter
 
