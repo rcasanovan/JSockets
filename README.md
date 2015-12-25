@@ -23,8 +23,18 @@ In order to create your JSockets server, you need to follow these steps:
 * This class must implement the 'executeOperation' method
 * In this method, process the Object arg parameter (it depends from the object that you're using to exchange information between client and server)
 * Use the byte[] return value from 'executeOperation' method to return anything you want to the client. You can use the UtilFunctions class in JSockets to transform objects if you need it
+* On main class, configure a String array with two elements: server listening port and the class that implements the ServerLogic protocol (String[] parameters = {"7687", "controller.ManagementRequest"};)
+* Execute 'main' method from JSockets 'Server' class with the String array parameter (Server.main(parameters);)
 
 ### Client
+
+In order to create your JSockets client, you need to follow these steps:
+
+* Add the JSockets library JAR file to you project
+* Create a SocketClient object. If you want you can use a singleton object
+* Configure the object tht you'll transfer to the server (a String, an array, a complex object)
+* If you need an answer from the server, execute the method 'executeRequestWithAnswer' sending the object, the server IP and server port
+* Process the server answer. You can use the UtilFunctions class in JSockets to transform objects if you need it
 
 ## Javadoc
 
