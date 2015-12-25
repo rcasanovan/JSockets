@@ -6,6 +6,12 @@ The library was originally developed by the Engineer Gerardo Barcia to support d
 
 After years working with the library, I decided to release it as an open source project.
 
+The goals of this code are:
+
+* Abstracting Sockets implementation in Java
+* Allow people who don't know the implementation of Sockets deploy applications on the client-server model very easily
+* Allow programming teachers create more interesting and complex projects without the need for implementing Sockets
+
 ## Documentation
 
 ## Support
