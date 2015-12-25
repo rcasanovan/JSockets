@@ -16,7 +16,17 @@ The goals of this code are:
 
 ### Server
 
+In order to create your JSockets server, you need to follow these steps:
+
+* Add the JSockets library JAR file to you project
+* Create a class that implements ServerLogic protocol
+* This class must implement the 'executeOperation' method
+* In this method, process the Object arg parameter (it depends from the object that you're using to exchange information between client and server)
+* Use the byte[] return value from 'executeOperation' method to return anything you want to the client. You can use the UtilFunctions class in JSockets to transform objects if you need it
+
 ### Client
+
+## Javadoc
 
 ## Support && contact
 
