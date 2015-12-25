@@ -18,8 +18,8 @@ The goals of this code are:
 
 ### Client
 
-## Support
+## Support && contact
 
-## Twitter
+### Twitter
 
-Follow [@rcasanovan](http://twitter.com/rcasanovan) on twitter.
+Follow me [@rcasanovan](http://twitter.com/rcasanovan) on twitter.
